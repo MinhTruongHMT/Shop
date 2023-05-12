@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href=
+      'https://fonts.googleapis.com/css?family=Sofia'
+      rel='stylesheet' />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    body {
+
+  margin: 0 auto;
+  background-color: lightgrey;
+}
+.wrapper {
+  background-color: white;
+  padding: 30px 400px;
+}
+.logo{
+  font-family: Sofia;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+#content {
+  overflow: auto;
+}
+
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+}
+
+.column1 {
+  float: left;
+}
+.column2 {
+  margin: 0% 3%;
+}
+.column3 {
+  float: right;
+  margin: 0%;
+}
+
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+li a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.banner, .article {
+  background-color: #C1DCDC;
+  height: 300px;
+  margin-bottom: 1em;
+  display: flex;
+}
+.banner-left{
+  float: left;
+  width: 50%;
+  padding-left: 45px;
+}
+.banner-right{
+  float: right;
+  width: 50%;
+  position: relative;
+  
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.h1-dream{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.circle{
+  width: 300px;
+  height: 200px;
+  border-radius: 50% 50% 0 50%;
+  background-color: black;
+  margin-top:100px ;
+  margin-left:70px;
+}
+ .image-modertree   {
+  object-fit: cover;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.status{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+
+  padding-right: 10px;
+}
+.banner-statu{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:600;
+  padding-right: 10px;
+  padding-right: 50px;
+}
+.input-style{
+  padding: 10px 120px 10px 10px;
+  margin-top: 20px;
+}
+.vertical {
+            border: 1px  solid gray;
+            margin-right: 50px;
+        }
+.banner-product{
+  /* background-color: #C1DCDC; */
+  height: 350px;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+}
+.product{
+  width: 22%;
+  /* border: 1px solid ; */
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.image-product{
+  width: 100%;
+  height: 70%;
+ 
+}
+.image-product img{
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+.name-product{
+  color: black;
+  font-weight: bold;
+}
+.price-product{
+  color: rgba(0, 0, 0, 0.5);
+}
+.name-product ,.price-product{
+ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 10px;
+}.about-product{
+  background-color: white;
+  height: 300px;
+  margin-bottom: 1em;
+  text-align: center
+}
+.icon-about--product{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon-about{
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background-color: #C1DCDC;
+  margin: 0 100px 0 100px;
+  position: relative;
+}
+.icon-about img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+  </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <ul class="nav">
+          <li class="logo">VuongFarm</li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <ul class="top-icon">
+          <li><i class="fa-solid fa-cart-shopping"></i></li>
+          <li><i class="fa-regular fa-user"></i></li>
+          <li><i class="fa-solid fa-bars"></i></li>
+        </ul>
+      </div>
+      <div id="content">
+        <div class="banner" style="border-radius: 20px;">
+          <div class="banner-left">
+            <h1 class="h1-dream">Buy your<br>dream plants</h1>
+            <div class="status">
+              <div class="banner-statu">
+                <div>
+                  <SPan>50+</SPan>
+                </div>
+                <div>
+                  <SPAn>Plan Species</SPAn>
+                </div>
+              </div>
+              <div class="vertical">
+              </div>
+              <div class="banner-statu">
+                <div>
+                  <SPan>100+</SPan>
+                </div>
+                <div>
+                  <SPAn>Customers</SPAn>
+                </div>
+              </div>
+
+            </div>
+            <div style="width: 340px; position: relative; ">
+              <i class="fa-solid fa-magnifying-glass" style="padding:
+                4px;background-color: #C1DCDC;border-radius: 6px;position:
+                absolute; right: 0; bottom: 0;
+                transform: translate(-50%,-50%);z-index: 99;right: 34px;bottom:
+                -7px;"></i>
+              <input style="border: none;cursor: pointer;" placeholder="What are
+                you looking
+                for? " class="input-style" />
+            </div>
+
+          </div>
+          <div class="banner-right">
+            <div>
+              <img
+                src="image/Group 14.png"
+                alt="" class="image-modertree">
+            </div>
+          </div>
+        </div>
+        <div class="banner-product">
+          <div class="product">
+            <h1 style="color: black;">Best Selling<br> Plants</h1>
+            <p>Easiest way to <br>healthy life by buying <br>your favorite
+              plants</p>
+            <button style="background-color: #C1DCDC;border: none;padding:
+              10px;border-radius: 5px;cursor: pointer;">See more <img
+                src="image/icons/Vector.png" alt=""> </button>
+          </div>
+          <div class="product">
+            <div class="image-product"><img src="image/Frame 1.png" alt=""></div>
+            <div class="name-product">
+              Natural Plant
+            </div>
+            <div class="price-product">100.000 vnd</div>
+          </div>
+          <div class="product">
+            <div class="image-product"><img src="image/Frame 2.png" alt=""></div>
+            <div class="name-product">
+              Natural Plant
+            </div>
+            <div class="price-product">100.000 vnd</div>
+          </div>
+          <div class="product">
+            <div class="image-product"><img src="image/Frame 3.png" alt=""></div>
+            <div class="name-product">
+              Natural Plant
+            </div>
+            <div class="price-product">100.000 vnd</div>
+          </div>
+        </div>
+        <div class="banner-product">
+          <div class="product">
+
+          </div>
+          <div class="product">
+            <div class="image-product"><img src="image/Frame 1.png" alt=""></div>
+            <div class="name-product">
+              Natural Plant
+            </div>
+            <div class="price-product">100.000 vnd</div>
+          </div>
+          <div class="product">
+            <div class="image-product"><img src="image/Frame 2.png" alt=""></div>
+            <div class="name-product">
+              Natural Plant
+            </div>
+            <div class="price-product">100.000 vnd</div>
+          </div>
+          <div class="product">
+            <div class="image-product"><img src="image/Frame 3.png" alt=""></div>
+            <div class="name-product">
+              Natural Plant
+            </div>
+            <div class="price-product">100.000 vnd</div>
+          </div>
+        </div>
+        <div class="about-product">
+          <p style="font-weight: bold;font-family: sans-serif;">About us</p>
+          <br>
+          <p style=" color: rgba(0, 0, 0, 0.5);">Order now and appreciate the
+            beauty of nature </p>
+          <div class="icon-about--product">
+            <div>
+              <div class="icon-about">
+                <img src="image/icons/Vector3.png" alt="">
+              </div>
+              <div>
+                Large Assortment
+              </div>
+              <div>
+                we offer many different types of products with fewer variations
+                in each category.
+              </div>
+            </div>
+            <div>
+              <div class="icon-about">
+                <img src="image/icons/Vector2.png" alt="">
+              </div>
+              <div>
+                Fast & Free Shipping
+              </div>
+              <div>
+                4-day or less delivery time, free shipping and an expedited
+                delivery option.
+              </div>
+            </div>
+            <div>
+              <div class="icon-about">
+                <img src="image/icons/Vector1.png" alt="">
+              </div>
+              <div>
+                24/7 Support
+              </div>
+              <div>
+                answers to any business related inquiry 24/7 and in real-time.
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="about-product">
+          <span>Categories</spam><br>
+        </div>
+        <div class="banner">
+          <p>What say?</p>
+        </div>
+      </div>
+      <footer class="footer">
+        <p>&copy; 2023 all Right Reserved Term of use LowBoy</p>
+      </footer>
+    </div>
+  </body>
+</html>
