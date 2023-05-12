@@ -16,7 +16,7 @@
     body {
 
   margin: 0 auto;
-  background-color: lightgrey;
+  background-color: white;
 }
 .wrapper {
   background-color: white;
@@ -30,7 +30,7 @@ ul {
   list-style-type: none;
 }
 #content {
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 .column1, .column2, .column3 {
@@ -65,6 +65,7 @@ li a{
   height: 300px;
   margin-bottom: 1em;
   display: flex;
+  
 }
 .banner-left{
   float: left;
@@ -186,7 +187,49 @@ li a{
   top: 50%;
   transform: translate(-50%,-50%);
 }
+.plants-product{
+  width: 20%;
+  border: 1px solid black;
+  margin: 0 100px 0 100px;
+}
+.plants-product img{
+  width: 100%;
+}
+.plants-product2{
+  width: 20%;
 
+  margin: 30px;
+}
+.plants-product2 img{
+  width: 100%;
+}
+.what{
+  background-color: white;
+  height: 300px;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.card-customer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+  height: 300px;
+ 
+}
+.card{
+display: flex;
+flex-direction: column;
+background-color: #C1DCDC;
+padding: 15px;
+border-radius: 10px;
+margin-left: 20px;
+}
+.footer{
+  padding:10px 100px 10px 100px ;
+  background-color: #C1DCDC;
+}
   </style>
   </head>
   <body>
@@ -235,9 +278,7 @@ li a{
                 absolute; right: 0; bottom: 0;
                 transform: translate(-50%,-50%);z-index: 99;right: 34px;bottom:
                 -7px;"></i>
-              <input style="border: none;cursor: pointer;" placeholder="What are
-                you looking
-                for? " class="input-style" />
+              <input style="border: none;cursor: pointer;" placeholder="What are you looking for? " class="input-style" />
             </div>
 
           </div>
@@ -351,16 +392,149 @@ li a{
 
           </div>
         </div>
-        <div class="about-product">
-          <span>Categories</spam><br>
+
+
+      </div>
+
+    </div>
+    <div class="about-product" style="height: 500px;">
+      <div style="padding: 30px;">
+        <span>Categories</spam><br>
+        <span>Find what you are looking for</span>
+      </div>
+      <div class="icon-about--product" style="background-color: #C1DCDC;">
+        <div class="plants-product2" style="margin-top: -40px;">
+          <img src="image/Frame 36.png" alt="">
+          <span>Natural Plants
+          </span>
         </div>
-        <div class="banner">
-          <p>What say?</p>
+        <div class="plants-product2">
+          <img src="image/Frame 37.png" alt="">
+          <span>Plant Accessories
+          </span>
+        </div>
+        <div class="plants-product2" style="margin-top: -40px">
+          <img src="image/Frame 38.png" alt="">
+          <span>Artificial Plants
+          </span>
         </div>
       </div>
-      <footer class="footer">
-        <p>&copy; 2023 all Right Reserved Term of use LowBoy</p>
-      </footer>
+      <div style="background-color: #C1DCDC;">
+        <span>Categories</spam><br>
+        <span>Find what you are looking for</span>
+      </div>
     </div>
+    <div class="wrapper" style="margin-top: 290px">
+      <div class="what">
+        <div style="padding: 20px;font-weight: bold;font-family: Arial,
+          Helvetica, sans-serif;">
+          <span>What customers say about<br> VuongFarm?
+          </span>
+        </div>
+
+        <div class="card-customer">
+          <div class="card">
+            <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              vulputate libero et velit interdum, ac aliquet odio mattis.
+              Class aptent taciti sociosqu ad litora torquent per conubia
+              nostra, per inceptos himenaeos</p>
+            <div style="display: flex;flex-direction: row; justify-content:
+              space-between;">
+              <div style="display: flex;flex-direction: row;">
+                <img src="image/Group 9 (1).png" alt="" style="height: 80%;">
+                <div style="padding: 50px;">
+                  <span>John Doe</span>
+                  <br>
+                  <span>Youtuber</span>
+                </div>
+
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <span>4.5</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              vulputate libero et velit interdum, ac aliquet odio mattis.
+              Class aptent taciti sociosqu ad litora torquent per conubia
+              nostra, per inceptos himenaeos</p>
+            <div style="display: flex;flex-direction: row; justify-content:
+              space-between;">
+              <div style="display: flex;flex-direction: row;">
+                <img src="image/Group 10.png" alt="" style="height: 80%;">
+                <div style="padding: 50px;">
+                  <span>John Doe</span>
+                  <br>
+                  <span>Youtuber</span>
+                </div>
+
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <span>4.5</span>
+              </div>
+            </div>
+          </div>
+          <div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <footer class="footer" style="margin-top: 180px;display:
+      flex;flex-direction: column;">
+      <div>
+        <div style="display: flex;flex-direction:row ;justify-content:
+          center;">
+          <div style="margin: 0px 20px;">
+            <span>GREENMIND</span><br>
+            <span>We help you find your dream plant</span>
+            <div style="display: flex; flex-direction: row; justify-content:
+              space-between; margin-top: 10px;">
+              <img src="image/icons/Group 11.png" alt="">
+              <img src="image/icons/Group 12.png" alt="">
+              <img src="image/icons/Group 13.png" alt="">
+            </div>
+
+          </div style="margin: 0px 20px;">
+          <div>
+            <table>
+              <tr>
+                <th>Information
+                </th>
+                <th>Company</th>
+                <th>Contact</th>
+              </tr>
+              <tr>
+                <td>About</td>
+                <td>Community</td>
+                <td>Getting Started
+                </td>
+              </tr>
+              <tr>
+                <td>Product</td>
+                <td>Career</td>
+                <td>Pricing
+                </td>
+              </tr>
+              <tr>
+                <td>Blog</td>
+                <td>Our story
+                  Copy
+                </td>
+                <td>Resources
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+      </div>
+      <p style="text-align: center;">&copy; 2023 all Right Reserved Term of use
+        LowBoy</p>
+    </footer>
   </body>
 </html>
